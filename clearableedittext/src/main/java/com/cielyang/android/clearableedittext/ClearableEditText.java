@@ -171,7 +171,7 @@ public class ClearableEditText extends AppCompatEditText implements TextWatcher 
     }
 
     @SuppressWarnings("unused")
-    public void setTextClearedListener(OnTextClearedListener textClearedListener) {
+    public void setOnTextClearedListener(OnTextClearedListener textClearedListener) {
         this.textClearedListener = textClearedListener;
     }
 }
